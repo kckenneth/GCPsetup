@@ -6,5 +6,9 @@ This is a brief introduction to how to setup GCP (Google Cloud Platform).
 2. <a href=https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys#project-wide>Set up SSH to Google instance</a> 
 2. <a href=https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04>Install Docker</a> 
 3. <a href=https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-16-04>Install Docker Compose</a> 
+4. <a href=https://medium.com/@kn.maragatham09/installing-jupyter-notebook-on-google-cloud-11979e40cd10>Open port for Jupyter notebook</a> 
+- make the external IP as static 
+- 8889 for jupyter notebook in Firewall setup 
+- 4040 for spark job visualization 
 
 
