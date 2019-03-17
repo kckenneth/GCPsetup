@@ -9,12 +9,15 @@ This is a brief introduction to how to setup GCP (Google Cloud Platform).
 4. <a href=https://github.com/kckenneth/GCPsetup/blob/master/docker-compose.md>Install Docker Compose</a> [<a href=https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-16-04>Source</a>] 
 5. <a href=https://medium.com/@kn.maragatham09/installing-jupyter-notebook-on-google-cloud-11979e40cd10>Open port for Jupyter notebook</a> 
 - make the external IP as static 
+> VPC network --> external IP addresses --> change Type from Ephemeral to Static  
 - 8889 for jupyter notebook in Firewall setup 
+> Create firewall rule 
+> name: kchenjp  
 > Targets = all instances in the network  
 > Source filter = IP ranges  
 > Source IP ranges = `0.0.0.0/0` manually typed in  
 > Second source filter = None  
-> Protocols and ports = specified protocols and ports = tcp:8889  
+> Protocols and ports = specified protocols and ports = check tcp and type `8889`  
 - 4040 for spark job visualization 
 
 
