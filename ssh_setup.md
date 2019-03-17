@@ -19,6 +19,13 @@ copy the entire key
 
 Go to your instance --> Metadata --> SSH Keys --> paste the copied key into the box and save 
 
+### Testing 
+Copying from local to GCP instance 
+```
+scp -i ~/.ssh/w261 testfile.txt kchen@<GCP-external-IP-address>:/home/kchen/
+```
+
+
 
 
 
