@@ -20,4 +20,7 @@ This is a brief introduction to how to setup GCP (Google Cloud Platform).
 > Protocols and ports = specified protocols and ports = check tcp and type `8889`  
 - 4040 for spark job visualization 
 
-
+Transferring files from GCP to local machine 
+```
+$ scp -i ~/.ssh/w261 kchen@35.237.83.52:/home/kchen/main_work_for_homework/Assignments/FinalProject/notebook_Chen.ipynb
+```
