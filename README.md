@@ -22,5 +22,5 @@ This is a brief introduction to how to setup GCP (Google Cloud Platform).
 
 Transferring files from GCP to local machine 
 ```
-$ scp -i ~/.ssh/w261 kchen@35.237.83.52:/home/kchen/main_work_for_homework/Assignments/FinalProject/notebook_Chen.ipynb
+$ scp -i ~/.ssh/w261 kchen@xx.xx.xx.xx:/home/kchen/main_work_for_homework/Assignments/FinalProject/notebook_Chen.ipynb
 ```
