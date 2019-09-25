@@ -12,3 +12,5 @@ Go to `IAM & Admin` --> `Quotas`
 
 In `Metric` --> `GPU (All regions)` --> Edit Quotas, increase the limit to `1`, submit the request 
 
+<a href="https://stackoverflow.com/questions/53415180/gcp-error-quota-gpus-all-regions-exceeded-limit-0-0-globally">Source</a>
+
