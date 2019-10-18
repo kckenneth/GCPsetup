@@ -17,11 +17,13 @@ copy the entire key
 
 ### Google Cloud 
 
+```
 --> Go to compute engine 
 --> click the instance 
 --> click Edit (You'd see no SSH Keys) 
 --> Add the w261.pub key (Note: If you created the ssh keys with the username, it's automatically appear the username, let's call it kchen here)
 --> Also enable HTTP, HTTPS as well. 
+```
 
 --> Note the external IP address as well. 
 
