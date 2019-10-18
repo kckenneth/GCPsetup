@@ -25,7 +25,7 @@ copy the entire key
 
 --> Note the external IP address as well. 
 
-<a href=https://www.youtube.com/watch?v=R8C66NwMJLs>Source</a>
+<a href="https://www.youtube.com/watch?v=R8C66NwMJLs">Source</a>
 
 ### Testing 
 Copying from local to GCP instance 
